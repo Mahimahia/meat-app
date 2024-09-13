@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat App</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <h1 class="app-name">Meat shop</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <i class="bx bx-menu"></i>
+        </label>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+    <section class="home" id="home">
+      <div class="content">
+        <h4>Welcome To</h4>
+        <h1>BUTCHERY MEAT</h1>
+        <p> Our meat shop located in thai. Every time we have providing a <br>fresh and variaty of meats </p>
+        <div class="button">
+          <button class="btn">
+            Order now
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="page2">
+        <div class="box gap">
+          <div class="card-1 card-1-img">
+            <p>We started since 2014. <br>best meat shop in world.</p>
+          </div>
+          <div class="card-2">
+            <p>meat.co</p>
+            <h1> Fresh meat</h1>
+            <p>Butchers fridges are design to keep meat at its freshest but must also keep it at a safe temparature <br> <br> its all in the temparature control for ex. raw meat should be stored betwen -2celcious and +2 celcious maintain</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="">
+      <div class="page3">
+        <div class="box gap">
+          <div class="card-2">
+            <div class="text-white"> 
+              <p>meat.co</p>
+              <h1> Sea food</h1>
+              <p>The sea food was fresh and instantly providing at a fresh meat you want sea food come and buy our fresh sea food we have providing varoius type of sea food at any time </p>
+            </div>
+          </div>
+          <div class="card-1 card-2-img"></div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="page4">
+        <div class="flex">
+          <h1 class="Heading">people reviews</h1>
+          <div class="box">
+            <div class="review-box review-box-img-1">
+              <h2>steve</h2>
+              <p>my favorite meat shop.weekly once visit<br></p>
+            </div>
+            <div class="review-box review-box-img-2">
+              <h2>mahi</h2>
+              <p>my favorite meat shop.weekly once visit<br></p>
+            </div>
+            <div class="review-box review-box-img-3">
+              <h2>david</h2>
+              <p>my favorite meat shop.weekly once visit<br></p>
+            </div>
+            <div class="review-box review-box-img-4">
+              <h2>marco</h2>
+              <p>my favorite meat shop.weekly once visit<br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="page5">
+        <h1 class="Heading"> Delicious menu</h1>
+        <div class="box">
+            <div class="card-2">
+                <h2>week days</h2> <br><br>
+                 <h3>Beef</h3>
+                 <div class="list">
+                  <ul>
+                    <li>Sirloin steak prime..............................$100</li>
+                    <li>Red devil beef.....................................$100</li>
+                    <li>Beef pota streak..................................$100</li>
+                    <li>Bonless beef........................................$100</li>
+                  </ul>
+                </div>
+                <div class="list1 list">
+                    <h3>mutton</h3>
+                    <ul>
+                        <li>goat curry cut......................................$100</li>
+                        <li>goat keema..........................................$100</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-2"> 
+                <h2>special sunday</h2> <br><br>
+                 <h3>fresh water sea food</h3>
+                 <div class="list1 list">
+                  <ul>
+                    <li>surmai/king fish......................................$100</li>
+                    <li>paplet/butter fish.....................................$100</li>
+                    <li>prawns (whole)........................................$100</li>
+                    <li>blue crab(whole)......................................$100</li>
+                  </ul>
+                </div>
+                <div class="list1 list">
+                    <h3>pork</h3>
+                    <ul>
+                        <li>gyro.............................................$100</li>
+                        <li>meatballs........................................$100</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+    <section id="contact">
+      <h1 class="Heading">Get conect with us</h1>
+      <div class="page6">
+        <div class="box1">
+          <form id="myForm" method="post" name="data">
+            <div class="row">
+              <div class="class">
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username"> 
+              </div>
+              <div class="class2">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+              </div>
+            </div>
+            <div class="class3">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phonenumber" name="phonenumber">
+            </div>
+            <div class="class4">
+              <label for="comment">Comment</label>
+              <textarea id="comment" name="comment"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="btn-primary">Submit</button>
+            </div>
+          </form>
+          <div id="errorMessages" style="color: red; margin-top: 30px; font-size: 20px;"></div>
+          
+    </div>
+    <div class="box2">
+      <img src="./images/Screenshot (3).png" alt="logo">
+      <p>mahimahi532004@gmail.com <br><br> +916385683882</p>
+      <div class="info">
+          <h3>Address</h3>
+          <p>443, <br> meat park,<br>HSIIDC, <br>karur(dt) <br>tamilnadu, 639119.</p>
+      </div>
+    </div>
+  </div>
+ </section>
+  <footer>
+    <p>All rights reserved &copy; 2024 Meat App</p>
+    <div class="social-media">
+      <a href="#"><i class="bx bxl-facebook"></i></a>
+      <a href="#"><i class="bx bxl-twitter"></i></a>
+      <a href="#"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <p>Designed by <a href="#">Mahendran</a></p>
+  </footer>
+</body>
+<script src="./js/index.js"></script>
+</html>
+
